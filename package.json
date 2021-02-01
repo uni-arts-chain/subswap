@@ -2,10 +2,10 @@
   "name": "@subswap/core",
   "description": "Core contracts for the Subswap",
   "version": "1.0.0",
-  "homepage": "https://subswap.me",
+  "homepage": "https://subswap.pro",
   "repository": {
     "type": "git",
-    "url": "https://github.com/subswap/subswap-core"
+    "url": "https://github.com/uni-arts-chain/subswap-core"
   },
   "keywords": [
     "subswap",
