@@ -67,7 +67,6 @@ contract SubswapPair is SubswapERC20 {
         require(msg.sender == factory, 'Subswap: FORBIDDEN'); // sufficient check
         token0 = _token0;
         token1 = _token1;
-        symbol = string(abi.encodePacked(IERC20(_token0).symbol(),"-", IERC20(_token1).symbol(),"-HLP"));
     }
 
     // update reserves and, on the first call per block, price accumulators
